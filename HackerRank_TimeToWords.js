@@ -1,3 +1,7 @@
+// From HackerRank challenge to print a given time as a string
+// See https://www.hackerrank.com/challenges/the-time-in-words/problem
+
+// HackerRank given code
 process.stdin.resume();
 process.stdin.setEncoding('ascii');
 
@@ -18,6 +22,7 @@ function readLine() {
     return input_stdin_array[input_currentline++];
 }
 
+//My code
 var strMap = {
     0: "midnight",
     1: "one",
